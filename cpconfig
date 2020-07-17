@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp ./{coc-settings.json,config,cpconfig,init.vim} ~/xxx/.dev/nvim -r
