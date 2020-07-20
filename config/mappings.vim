@@ -193,7 +193,7 @@ nnoremap <silent><Leader>wV :vsplit<SPACE>
 nnoremap <silent><Leader>wH :split<SPACE>
 let g:which_key_map.w = {
       \ 'name': '+split',
-      \ 'g': [':Goyo', 'Zen Mode'],
+      \ 'z': [':Goyo', 'Zen Mode'],
       \ 'v': [':vsplit', 'virtual split'],
       \ 'h': [':split', 'horizontal split'],
       \}
