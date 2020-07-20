@@ -44,12 +44,24 @@ let g:which_key_map =  {}
 " s
 let g:which_key_map['/'] =  [':Commentary', 'toggle comment']
 let g:which_key_map[' '] =  [':let @/ = ""', 'no highlight search']
+let g:which_key_map['r'] =  [':RnvimrToggle', 'ranger']
+
+
+" Action Mapping
+let g:which_key_map.a = {
+      \ 'name': 'actions',
+      \ 'i': [':IndentLinesToggle', 'toogle indentline'],
+      \ 'n': [':set number', 'set number'],
+      \ 'N': [':set nonumber', 'set no number'],
+      \ 'r': [':set relativenumber', 'set relativenumber'],
+      \ 'R': [':set norelativenumber', 'set no relativenumber'],
+      \}
 
 " Buffer Mapping
 nnoremap <Leader>bD :bdelete<SPACE>
 nnoremap <Leader>bg :buffer<SPACE>
 let g:which_key_map.b = {
-      \ 'name': '+buffer',
+      \ 'name': '+buffers',
       \ 'f': [':bfirst', 'go to first buffer'],
       \ 'l': [':blast', 'go to last buffer'],
       \ 'n': [':bnext', 'go to next buffer'],
@@ -107,11 +119,18 @@ let g:which_key_map.g = {
       \ 'a': [':Git add %', 'add curent file'],
       \ 'A': [':Git add .', 'add all file'],
       \ 'c': [':Git commit', 'commit'],
+      \ 'd': [':Git diff', 'git diff'],
+      \ 'D': [':Gdiffsplit', 'git diff split'],
+      \ 'g': [':Ggrep', 'git grep'],
       \ 'h': [':SignifyToggle', 'toogle signify'],
       \ 'H': [':SignifyToggleHighlight', 'toogle signify highlight'],
       \ 'j': ['<plug>(signify-next-hunk)', 'next hunk'],
       \ 'k': ['<Plug>(signify-prev-hunk)', 'prev hunk'],
       \ 's': [':Gstatus', 'git status'],
+      \ 'l': [':Glog', 'git log'],
+      \ 'p': [':Git push', 'push'],
+      \ 'P': [':Git pull', 'pull'],
+      \ 'r': [':GRemove', 'remover'],
       \}
 
 " Plug Mapping
@@ -136,6 +155,7 @@ let g:which_key_map.q = {
 nnoremap <silent><Leader>sb :buffers<SPACE>
 let g:which_key_map.s = {
       \ 'name': '+search',
+      \ 'c': [':Commands', 'commands'],
       \ 'f': [':Files', 'search files'],
       \ 'g': [':GFiles', 'search git files'],
       \ 'G': [':GFiles?', 'search modified git files'],
@@ -144,6 +164,7 @@ let g:which_key_map.s = {
       \ 'l': [':BLines', 'search lines buffer'],
       \ 'L': [':Lines', 'search lines'],
       \ 'r': [':Rg', 'search text'],
+      \ 'h': [':History', 'history'],
       \}
 
 " Terminal Mapping

@@ -20,5 +20,6 @@ source $HOME/.config/nvim/config/plugins/startify.vim
 source $HOME/.config/nvim/config/plugins/signify.vim
 source $HOME/.config/nvim/config/plugins/floaterm.vim
 source $HOME/.config/nvim/config/plugins/which-key.vim
+source $HOME/.config/nvim/config/plugins/indentline.vim
 source $HOME/.config/nvim/config/plugins/coc.vim
 source $HOME/.config/nvim/config/plugins/coc-extensions.vim

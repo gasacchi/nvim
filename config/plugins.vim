@@ -32,6 +32,9 @@ Plug 'liuchengxu/vim-which-key'
 " Float Term
 Plug 'voldikss/vim-floaterm'
 
+" Indent line
+Plug 'Yggdroot/indentLine'
+
 " Reason ML Syntax
 Plug 'reasonml-editor/vim-reason-plus'
 
