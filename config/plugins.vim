@@ -35,6 +35,9 @@ Plug 'voldikss/vim-floaterm'
 " Indent line
 Plug 'Yggdroot/indentLine'
 
+" Vim Sneak
+Plug 'justinmk/vim-sneak'
+
 " Reason ML Syntax
 Plug 'reasonml-editor/vim-reason-plus'
 

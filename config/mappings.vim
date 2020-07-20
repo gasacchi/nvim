@@ -24,7 +24,7 @@ nnoremap <C-l> <C-w>l
 nnoremap <silent> <M-j>    :resize -2<CR>
 nnoremap <silent> <M-k>    :resize +2<CR>
 nnoremap <silent> <M-h>    :vertical resize -2<CR>
-nnoremap <silent> <M-l>    :vertical resize +2<CR>
+noremap <silent> <M-l>    :vertical resize +2<CR>
 
 " Remap Esc to jk
 inoremap jk <ESC>
@@ -48,6 +48,8 @@ let g:which_key_map['r'] =  [':RnvimrToggle', 'ranger']
 
 
 " Action Mapping
+nmap <Leader>as <Plug>Sneak_s
+nmap <Leader>aS <Plug>Sneak_S
 let g:which_key_map.a = {
       \ 'name': 'actions',
       \ 'i': [':IndentLinesToggle', 'toogle indentline'],
@@ -55,6 +57,8 @@ let g:which_key_map.a = {
       \ 'N': [':set nonumber', 'set no number'],
       \ 'r': [':set relativenumber', 'set relativenumber'],
       \ 'R': [':set norelativenumber', 'set no relativenumber'],
+      \ 's': 'sneak foward',
+      \ 'S': 'sneak backward',
       \}
 
 " Buffer Mapping

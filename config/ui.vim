@@ -14,7 +14,7 @@ endif
 " Theme
 let g:gruvbox_contrast_dark='dark'
 " colorscheme nord
-colorscheme gruvbox
+ colorscheme gruvbox
 
 " Transparent
 " hi Normal guibg=NONE ctermbg=NONE

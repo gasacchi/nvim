@@ -22,6 +22,5 @@ source $HOME/.config/nvim/config/plugins/floaterm.vim
 source $HOME/.config/nvim/config/plugins/which-key.vim
 source $HOME/.config/nvim/config/plugins/indentline.vim
 source $HOME/.config/nvim/config/plugins/goyo.vim
-
 source $HOME/.config/nvim/config/plugins/coc.vim
 source $HOME/.config/nvim/config/plugins/coc-extensions.vim
