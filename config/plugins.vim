@@ -74,7 +74,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
 
 " Theme
-Plug 'morhetz/gruvbox'
+Plug 'sainnhe/gruvbox-material'
 Plug 'arcticicestudio/nord-vim'
 
 " Plugin for rainbox parenthesis 

@@ -57,7 +57,7 @@ set listchars=eol:¬,space:·
 set path+=**
 
 " Set Font Neovide
-set guifont=FiraCode\ Nerd\ Font:h12:style:Retina
-
+" set guifont=FiraCode\ Nerd\ Font:h12:style:Retina
+set guifont=JetBrainsMono\ Nerd\ Font:h12
 " Auto Reload Neovim Config
 au! BufWritePost $MYVIMRC source % 

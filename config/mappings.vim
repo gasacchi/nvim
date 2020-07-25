@@ -84,6 +84,7 @@ let g:which_key_map.c = {
       \ 'a' : ['<Plug>(coc-codeaction)', 'line action'],
       \ 'A' : ['<Plug>(coc-codeaction-selected)', 'selected action'],
       \ 'c' : [':CocList commands', 'commands'],
+      \ 'C' : [':CocConfig', 'open config file'],
       \ 'd' : ['<Plug>(coc-definition)', 'definition'],
       \ 'D' : [':CocList diagnostics', 'diagnostics'],
       \ 'e' : [':CocList extensions', 'extensions'],

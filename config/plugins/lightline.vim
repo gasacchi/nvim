@@ -1,7 +1,7 @@
 " enable lightline
 set laststatus=2
 let g:lightline = {
-\   'colorscheme':'gruvbox',
+\   'colorscheme':'gruvbox_material',
 \   'active': {
 \     'left':[[ 'mode', 'paste' ],
 \             [ 'gitbranch', 'readonly', 'filename', 'modified' ]]

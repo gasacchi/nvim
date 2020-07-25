@@ -1,4 +1,8 @@
 {
+  "diagnostic.infoSign": "כֿ",
+  "diagnostic.hintSign": "",
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
   "emmet.includeLanguages": {
     "reason": "javascriptreact"
   },
